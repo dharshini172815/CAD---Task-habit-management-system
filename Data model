@@ -1,0 +1,70 @@
+1. Class User
+-------------
+    - userID: int
+    - userName: String
+    - email: String
+    - password: String
+
+2. Class Task
+-------------
+    - taskID: int
+    - user: User
+    - title: String
+    - description: String
+    - deadline: String
+    - priority: String  // High, Medium, Low
+    - isCompleted: boolean
+    - createdAt: String
+
+3. Class Habit
+--------------
+    - habitID: int
+    - user: User
+    - name: String
+    - goal: String  // e.g., "Study", "Workout"
+    - streak: int   // current streak
+    - lastCompletedDate: String
+
+4. Class HabitLog
+-----------------
+    - logID: int
+    - habit: Habit
+    - date: String
+    - isCompleted: boolean
+
+5. Class Dashboard
+------------------
+    - user: User
+    - totalTasks: int
+    - completedTasks: int
+    - activeHabits: int
+    - totalStreaks: int
+    - progressChartData: Map<String, Integer>  // For graphs
+
+6. Class Reminder
+-----------------
+    - reminderID: int
+    - user: User
+    - task: Task
+    - message: String
+    - reminderTime: String
+    - isSent: boolean
+
+7. Class Filter
+---------------
+    - user: User
+    - filterByStatus: String  // Completed, Pending
+    - filterByDate: String
+
+
+Feature	                                      Classes Used
+-----------------------------------------------------------------------
+User Register & Login	                        User
+Create Daily Tasks & Habits	                  Task, Habit
+Set Deadlines and Priorities	                Task
+Mark Tasks as Completed                      	Task
+Track Habit Streaks	                          Habit, HabitLog
+Dashboard with Progress Charts              	Dashboard, Task, Habit
+Daily Reminders / To-Do List View           	Reminder, Task, User
+Filter by Completed / Pending / Date        	Filter, Task
+------------------------------------------------------------------------
