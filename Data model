@@ -1,6 +1,6 @@
 1. Class User
 -------------
-    - userID: int
+    - userID: int 
     - userName: String
     - email: String
     - password: String
