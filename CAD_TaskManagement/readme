@@ -1,0 +1,12 @@
+// com.tasktracker
+// ├── data
+// │   ├── db
+// │   └── dto
+// ├── features
+// │   ├── auth (register, login)
+// │   ├── tasks (create, update, view)
+// │   ├── habits (streak tracking)
+// │   ├── dashboard (progress view)
+// │   ├── reminders (daily notifications)
+// │   └── filter (status/date filtering)
+// └── utils
