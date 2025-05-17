@@ -1,0 +1,100 @@
+// com.tasktracker
+// ├── data
+// │   ├── db
+// │   └── dto
+// ├── features
+// │   ├── auth (register, login)
+// │   ├── tasks (create, update, view)
+// │   ├── habits (streak tracking)
+// │   ├── dashboard (progress view)
+// │   ├── reminders (daily notifications)
+// │   └── filter (status/date filtering)
+// └── utils
+
+==========================================
+      Welcome to Task & Habit Tracker
+==========================================
+
+1. Register
+2. Login
+3. Exit
+Enter your choice: 1
+
+----- User Registration -----
+Enter username: manimala
+Enter password: ******
+Registration successful! Please login.
+
+Enter your choice: 2
+
+----- User Login -----
+Enter username: manimala
+Enter password: ******
+Login successful! 🎉
+
+------------------------------------------
+             Main Menu
+------------------------------------------
+1. Add Daily Task / Habit
+2. View To-Do List
+3. Mark Task as Completed
+4. Set Deadline or Priority
+5. View Progress Dashboard
+6. View Habit Streaks
+7. Filter Tasks (Completed / Pending / Date)
+8. Logout
+Enter your choice: 1
+
+----- Add New Task / Habit -----
+Enter title: Study DSA
+Is this a habit? (yes/no): yes
+Enter deadline (yyyy-mm-dd): 2025-05-20
+Set priority (High/Medium/Low): High
+Task added successfully!
+
+Enter your choice: 1
+
+Enter title: Complete Java Project
+Is this a habit? (yes/no): no
+Enter deadline (yyyy-mm-dd): 2025-05-18
+Set priority (High/Medium/Low): High
+Task added successfully!
+
+Enter your choice: 2
+
+----- Today's To-Do List -----
+[ ] 1. Study DSA (Habit) - Due: 2025-05-20 - Priority: High
+[ ] 2. Complete Java Project - Due: 2025-05-18 - Priority: High
+
+Enter your choice: 3
+
+----- Mark Task as Completed -----
+Enter task number to mark complete: 1
+✅ Task marked as completed!
+
+Enter your choice: 6
+
+----- Habit Streaks -----
+📈 Habit: Study DSA - Current Streak: 1 day 🔥
+
+Enter your choice: 5
+
+----- Progress Dashboard -----
+✔️ Completed Tasks: 1
+❌ Pending Tasks: 1
+🔥 Active Habits: 1
+📊 Habit Streaks: 1 day
+
+Enter your choice: 7
+
+----- Filter Tasks -----
+1. Completed
+2. Pending
+3. By Date
+Enter your filter option: 1
+
+--- Completed Tasks ---
+✔️ Study DSA (Habit)
+
+Enter your choice: 8
+You have been logged out. Thank you for using Task & Habit Tracker!
